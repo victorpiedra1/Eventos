@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
     require_once 'vendor/autoload.php';
     require_once 'assets/app/Models/Project.php';
@@ -36,6 +37,8 @@
     }
 ?>
 
+=======
+>>>>>>> 9a6b7171713c42e65e17cf43d88b2039b7c04296
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -69,6 +72,7 @@
 
       <section class="contenedor cambio-seccion">
         <div class="row">
+<<<<<<< HEAD
           <form action="index.php" id="formulario" class="col s12" method="post">
             <div class="row">
               <div class="input-field col s6">
@@ -76,17 +80,34 @@
               </div>
               <div class="input-field col s6">
                 <input placeholder="Apellidos" id="last_name" type="text" class="validate" name="apellido">
+=======
+          <form id="formulario" class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input placeholder="Nombre" id="first_name" type="text" class="validate">
+              </div>
+              <div class="input-field col s6">
+                <input placeholder="Apellidos" id="last_name" type="text" class="validate">
+>>>>>>> 9a6b7171713c42e65e17cf43d88b2039b7c04296
               </div>
             </div>
             
             <div class="row">
               <div class="input-field col s12">
+<<<<<<< HEAD
                 <input placeholder="Correo electrónico"  id="email" type="email" class="validate" name="correo">
+=======
+                <input placeholder="Correo electrónico"  id="email" type="email" class="validate">
+>>>>>>> 9a6b7171713c42e65e17cf43d88b2039b7c04296
               </div>
             </div>
             <div class="row">
               <div class="input-field col s12">
+<<<<<<< HEAD
                 <input placeholder="Contraseña"  id="password" type="password" class="validate" name="contrasena">
+=======
+                <input placeholder="Contraseña"  id="password" type="password" class="validate">
+>>>>>>> 9a6b7171713c42e65e17cf43d88b2039b7c04296
               </div>
             </div>
 
@@ -100,10 +121,14 @@
               <span>No soy un Robot</span>
             </label><br>
             <br>
+<<<<<<< HEAD
             <button class="btn waves-effect waves-light" type="submit">Submit
                 <a href="login.php"></a>
                 <i class="material-icons right">send</i>
             </button>
+=======
+            <input type="submit">
+>>>>>>> 9a6b7171713c42e65e17cf43d88b2039b7c04296
           </form>
         </div>
       </section>

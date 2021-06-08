@@ -1,10 +1,18 @@
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9a6b7171713c42e65e17cf43d88b2039b7c04296
   const seccion3 = document.querySelector('.seccion3'); //En esta línea guardamos el div con seccion3
   
   const form = document.getElementById('formulario'); //En esta línea guardamos el formulario
     
   form.addEventListener('submit',function(e){
+<<<<<<< HEAD
     //e.preventDefault();
+=======
+    e.preventDefault();
+>>>>>>> 9a6b7171713c42e65e17cf43d88b2039b7c04296
     let nombre = document.getElementById('first_name').value;
     let apellido = document.getElementById('last_name').value;
     let correo = document.getElementById('email').value;
@@ -13,19 +21,32 @@
     let checkBox1 = document.getElementById('checkbox1');
     let checkBox2 = document.getElementById('checkbox2');
 
+<<<<<<< HEAD
    if(checkBox1.checked == true && checkBox2.checked == true){
+=======
+    if(checkBox1.checked == true && checkBox2.checked == true){
+>>>>>>> 9a6b7171713c42e65e17cf43d88b2039b7c04296
       console.log('aceptó los terminos y condiciones');
       agregarTexto(nombre,apellido,correo);
     }
     else{
       alert('Acepta los terminos y condiciones');
     }
+<<<<<<< HEAD
     
 });
 
 
   
 /*  function agregarTexto(nombre,apellido,correo){
+=======
+});
+
+
+
+  
+  function agregarTexto(nombre,apellido,correo){
+>>>>>>> 9a6b7171713c42e65e17cf43d88b2039b7c04296
     let html = `
     <div class="col s4 m3">
       <div class="card ">
@@ -43,7 +64,11 @@
     </div>`;
     seccion3.innerHTML += html;            
   }
+<<<<<<< HEAD
 */
+=======
+
+>>>>>>> 9a6b7171713c42e65e17cf43d88b2039b7c04296
 
 
   /*EVENTO CHANGE
